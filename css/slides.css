@@ -139,7 +139,7 @@ img.rounded {
   border: none;
   outline: none;
   text-decoration: none;
-  background: #000000;
+  background: #202020;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
@@ -330,26 +330,26 @@ img.rounded {
   border-radius: 0px;
 }
 .button.thin-stroke {
-  color: #000000;
+  color: #202020;
   font-weight: 300;
   border: 1px solid;
   background-color: transparent !important;
   padding: 13px 21px 13px;
 }
 .slide.whiteSlide .button.thin-stroke {
-  color: #000000;
+  color: #202020;
 }
 .button.thin-stroke.small {
   padding: 9px 15px;
 }
 .button.stroke {
-  color: #000000;
+  color: #202020;
   border: 2px solid;
   background-color: transparent !important;
   padding: 12px 20px;
 }
 .slide.whiteSlide .button.stroke {
-  color: #000000;
+  color: #202020;
 }
 .button.stroke.round {
   padding-left: 26px;
@@ -632,7 +632,7 @@ img.rounded {
 }
 
 .slide.whiteSlide svg:not(.noFill) {
-  fill: #000000;
+  fill: #202020;
 }
 
 .svgContainer,
@@ -676,7 +676,7 @@ img.rounded {
 }
 
 .slide.whiteSlide .dot:after {
-  background: #000000;
+  background: #202020;
 }
 
 .slides:not(.mobile).dot:hover:after {
@@ -714,16 +714,16 @@ img.rounded {
 }
 .tabs li.selected {
   background: #fff;
-  color: #000000;
+  color: #202020;
 }
 
 .slide.whiteSlide .tabs li {
   border-color: #e5e5e5;
-  color: #000000;
+  color: #202020;
 }
 .slide.whiteSlide .tabs li.selected {
-  background: #000000;
-  border-color: #000000;
+  background: #202020;
+  border-color: #202020;
   color: #fff;
 }
 
@@ -1086,7 +1086,7 @@ img.rounded {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: #000000;
+  background: #202020;
   color: #fff;
   z-index: 10;
   overflow: hidden;
@@ -1103,7 +1103,7 @@ img.rounded {
   visibility: visible;
 }
 .slide.whiteSlide {
-  color: #000000;
+  color: #202020;
   background: #fff;
 }
 
@@ -1409,7 +1409,7 @@ html:not(.mobile) .slide.video .background[style] {
 .pad {
   border-radius: 6px;
   padding: 40px;
-  color: #000000;
+  color: #202020;
   background: #fff;
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -1424,7 +1424,7 @@ html:not(.mobile) .slide.video .background[style] {
 }
 .pad.shadow.stroke:hover {
   background: #fff;
-  color: #000000;
+  color: #202020;
   transition: 0.15s;
 }
 .pad.shadowHover {
@@ -1556,7 +1556,7 @@ html.mobile .showForMobileInline {
   width: 17px;
   height: 17px;
   line-height: 1.2;
-  background: #000000;
+  background: #202020;
   opacity: 0.3;
   color: #fff;
   border-radius: 50%;
@@ -1567,7 +1567,7 @@ html.mobile .showForMobileInline {
 }
 .helpBubble .helpMessage {
   background: rgba(255, 255, 255, 0.98);
-  color: #000000;
+  color: #202020;
   font-size: 15px;
   line-height: 1.4;
   border-radius: 5px;
@@ -1651,7 +1651,7 @@ html.mobile .showForMobileInline {
   opacity: 1;
 }
 .slides.whiteSlide .panel {
-  color: #000000;
+  color: #202020;
 }
 .scroll .panel.hideOnScroll, .mobile .simplifiedMobile .panel.hideOnScroll {
   position: fixed;
@@ -1763,7 +1763,7 @@ html.mobile .showForMobileInline {
   max-width: none;
 }
 .slides.whiteSlide .panel svg {
-  fill: #000000;
+  fill: #202020;
 }
 .panel .button {
   margin: 0;
@@ -1917,7 +1917,7 @@ html.mobile .showForMobileInline {
   top: -10px;
 }
 .whiteSlide .side.compact .navigation li {
-  background: #000000;
+  background: #202020;
 }
 .side.compact:not(.square) .navigation li:first-child {
   border-radius: 10px 10px 0 0;
@@ -1932,7 +1932,7 @@ html.mobile .showForMobileInline {
   padding: 0;
 }
 .slides.whiteSlide .side svg:not([fill]) {
-  fill: #000000;
+  fill: #202020;
 }
 
 .navigation {
@@ -2150,22 +2150,22 @@ html.mobile .showForMobileInline {
   margin-top: 2px;
 }
 .slides.whiteSlide .navigation li:after {
-  background: #000000;
+  background: #202020;
   box-shadow: 0 0 1px #fff;
 }
 .slides.whiteSlide .stroke .navigation li:after {
-  border-color: #000000;
+  border-color: #202020;
   background: transparent;
 }
 .slides.whiteSlide .stroke .navigation li:hover:after {
-  background: #000000;
+  background: #202020;
 }
 .slides.whiteSlide .stroke .navigation li.selected:after {
-  border-color: #000000;
-  background: #000000;
+  border-color: #202020;
+  background: #202020;
 }
 .slides.whiteSlide .navigation.numbers li:after {
-  color: #000000;
+  color: #202020;
   text-shadow: 0 0 2px #fff !important;
 }
 .panel .navigation, .panel .navigation ul {
@@ -2201,7 +2201,7 @@ html.mobile .showForMobileInline {
   counter-increment: item;
   background: none !important;
   box-shadow: none !important;
-  text-shadow: 0 0 2px #000000;
+  text-shadow: 0 0 2px #202020;
   font-weight: bold;
   font-size: 20px;
   line-height: 0.7;
@@ -2229,7 +2229,7 @@ html.mobile .showForMobileInline {
 .dropdown {
   position: fixed;
   z-index: 300;
-  color: #000000;
+  color: #202020;
   width: 160px;
   background: #fff;
   box-shadow: 0 6px 11px 0 rgba(0, 0, 0, 0.15), 0 14px 28px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05);
@@ -2364,7 +2364,7 @@ html.mobile .showForMobileInline {
 .dropdown.share li.mail {
   width: 100%;
   height: auto;
-  color: #000000;
+  color: #202020;
   opacity: 0.6;
   font-size: 15px;
   padding: 20px 0;
@@ -2644,7 +2644,7 @@ html:not(.page-loaded) .sidebar {
   margin: 15px;
 }
 .popup.white .close svg {
-  fill: #000000;
+  fill: #202020;
 }
 .popup .container .wrap {
   padding: 18px 58px;
@@ -5054,10 +5054,10 @@ article figcaption, .text figcaption {
 /* Colors */
 .white {
   background: #fff !important;
-  color: #000000 !important;
+  color: #202020 !important;
 }
 .white svg {
-  fill: #000000 !important;
+  fill: #202020 !important;
 }
 
 .text-white {
@@ -5076,7 +5076,7 @@ article figcaption, .text figcaption {
 }
 
 .black {
-  background: #000000 !important;
+  background: #202020 !important;
   color: #fff !important;
 }
 .black svg {
@@ -5084,18 +5084,18 @@ article figcaption, .text figcaption {
 }
 
 .text-black {
-  color: #000000 !important;
+  color: #202020 !important;
 }
 .text-black.button svg {
-  fill: #000000 !important;
+  fill: #202020 !important;
 }
 
 .stroke.button.black {
-  color: #000000 !important;
-  border-color: #000000 !important;
+  color: #202020 !important;
+  border-color: #202020 !important;
 }
 .stroke.button.black svg {
-  fill: #000000 !important;
+  fill: #202020 !important;
 }
 
 /* Colors by Google Meterial Design (C) */
@@ -5354,10 +5354,10 @@ article figcaption, .text figcaption {
 
 .yellow {
   background: #FFEB3B !important;
-  color: #000000 !important;
+  color: #202020 !important;
 }
 .yellow svg {
-  fill: #000000 !important;
+  fill: #202020 !important;
 }
 
 .text-yellow {
@@ -6237,7 +6237,7 @@ article figcaption, .text figcaption {
   width: 14px;
   height: 2px;
   border-radius: 2px;
-  background: #000000;
+  background: #202020;
   transform: rotate(45deg);
   position: absolute;
   right: 6px;
@@ -6357,7 +6357,7 @@ html:not(.page-loaded) .dialog {
   padding: 13px 5px 16px 15px;
   outline: none;
   margin: 1px 0 0 0;
-  color: #000000;
+  color: #202020;
   height: 50px;
   box-shadow: none !important;
   -webkit-appearance: none;
@@ -6698,13 +6698,13 @@ p.remind-43 {
 }
 .flex-64 .cell-64:hover {
   background: #fff;
-  color: #000000;
+  color: #202020;
   opacity: 1;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 .flex-64:not(:hover) li:first-child > .cell-64 {
   background: #fff;
-  color: #000000;
+  color: #202020;
   opacity: 1;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   border-color: transparent !important;
@@ -6733,7 +6733,7 @@ p.remind-43 {
   }
 }
 .box-67 {
-  color: #000000;
+  color: #202020;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -6860,14 +6860,14 @@ p.remind-43 {
 }
 .flex-71 .cell-71:hover {
   background: #fff;
-  color: #000000;
+  color: #202020;
   opacity: 1;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   border-color: transparent !important;
 }
 .flex-71:not(:hover) li:first-child > .cell-71 {
   background: #fff;
-  color: #000000;
+  color: #202020;
   opacity: 1;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   border-color: transparent !important;
@@ -6895,14 +6895,14 @@ p.remind-43 {
 }
 .flex-73 .cell-73:hover {
   background: #fff;
-  color: #000000;
+  color: #202020;
   opacity: 1;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   border-color: transparent !important;
 }
 .flex-73:not(:hover) li:first-child > .cell-73 {
   background: #fff;
-  color: #000000;
+  color: #202020;
   opacity: 1;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   border-color: transparent !important;
@@ -6915,7 +6915,7 @@ p.remind-43 {
   }
 }
 .box-74 {
-  color: #000000;
+  color: #202020;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -6988,7 +6988,7 @@ p.remind-43 {
   }
 }
 .box-77 {
-  color: #000000;
+  color: #202020;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -7134,7 +7134,7 @@ p.remind-43 {
 }
 
 .flex.flex-83 {
-  color: #000000;
+  color: #202020;
   margin-top: 50px;
 }
 @media (min-width: 1024px) {
@@ -7181,7 +7181,7 @@ p.remind-43 {
 }
 
 .flex.flex-84 {
-  color: #000000;
+  color: #202020;
   margin-top: 50px;
 }
 @media (min-width: 1240px) {
@@ -7458,7 +7458,7 @@ p.remind-43 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .slide.whiteSlide .frame-97 a.button.text-white {
-  color: #000000 !important;
+  color: #202020 !important;
 }
 .frame-97:last-child {
   border-bottom: none !important;
@@ -7665,7 +7665,7 @@ a.box-99:hover {
   padding: 7%;
   background: #fff;
   border-radius: 6px;
-  color: #000000;
+  color: #202020;
   position: relative;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.1);
 }

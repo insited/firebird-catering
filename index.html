@@ -677,50 +677,8 @@
   </div>
 </nav>
 
-<script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
-<script>
-  $(function() {
-    $(window).resize( function(){
-      var theWidth = $(window).width(),
-          theHeight = $(window).height(),
-          videoProportions = 16/9,
-          newWidth = (theHeight*videoProportions),
-          newHeight = (theWidth/videoProportions);
-
-      if ( (theWidth > 1920) && (newHeight > theHeight )) {
-        $('.background.vimeo iframe').css({'width':theWidth, 'height':newHeight});
-      }
-
-      if ( (theHeight > 1080) && (newWidth > theWidth )) {
-        $('.background.vimeo iframe').css({'height':theHeight, 'width':newWidth});
-      }
-    }).resize();
-
-    // mute audio
-    var vimeo_iframe = $('.background.vimeo iframe')[0];
-    var player = $f(vimeo_iframe);
-
-    player.addEvent('ready', function() {
-      player.api('setVolume', 0);
-    });
-});
-</script>
-<style>
-  .slides .slide .background.vimeo iframe {
-    width: 1920px;
-    height: 1080px;
-    position: absolute;
-    top: initial;
-    bottom: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, 50%);
-    transform: translate(-50%, 50%);
-    -webkit-transform-origin: 0%;
-    transform-origin: 0%;
-  }
-</style>
-<!-- Slide 1 (#01) -->
-<section class="slide black fade-3">
+<!-- Firebird Catering -->
+<section class="slide black fade-9">
   <div class="content">
     <div class="container">
       <div class="wrap">
@@ -731,9 +689,6 @@
           
       </div>
     </div>
-  </div>
-  <div class="background vimeo fromBlur">
-    <iframe src="https://player.vimeo.com/video/423540421?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
 </section>
 <!-- Panel Bottom #05 -->
